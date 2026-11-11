@@ -1,0 +1,17 @@
+description: the population size is consistent with the data
+time_units: generations
+# generation_time: 5
+
+demes:
+- name: ancester
+  start_time: .inf
+  epochs:
+    - {start_size: 20_000, end_time: 200_000}
+- name: pop1
+  epochs:
+    - {start_size: 25_000,}
+  ancestors: [ancester]
+- name: pop2 
+  epochs:
+    - {start_size: 20_000,}
+  ancestors: [ancester]

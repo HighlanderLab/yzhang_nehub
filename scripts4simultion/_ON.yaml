@@ -1,0 +1,10 @@
+description: the population size is consistent with the data
+time_units: generations
+# generation_time: 5
+
+demes:
+- name: pop1
+  start_time: .inf
+  epochs:
+    - {start_size: 20_000, end_time: 200_000}
+    - {start_size: 20_000}

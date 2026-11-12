@@ -1,6 +1,5 @@
 description: the population size is consistent with the data
 time_units: generations
-# generation_time: 5
 
 demes:
 - name: pop1

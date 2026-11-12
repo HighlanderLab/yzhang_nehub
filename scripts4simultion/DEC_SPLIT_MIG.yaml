@@ -1,6 +1,5 @@
 description: pig demographic model with migration
 time_units: generations
-# generation_time: 5
 
 demes:
 - name: ancester
